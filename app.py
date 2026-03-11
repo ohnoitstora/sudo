@@ -66,7 +66,7 @@ class SudokuCell(Static):
 
 class SudokuApp(App):
     CSS_PATH = "sudoku.tcss"
-    TITLE = "Sudoku Prototype"
+    TITLE = "Sudoku"
 
     BINDINGS = [
         ("up", "move_up", "Up"),
@@ -85,7 +85,6 @@ class SudokuApp(App):
     def compose(self) -> ComposeResult:
         with Container(id="game"):
             yield Static("Sudoku", id="title")
-            yield Static("Barebones Textual prototype", id="subtitle")
             with Horizontal(id="topbar"):
                 yield Static(
                     "Click a cell or use arrow keys, then type 1-9. Starting numbers are locked.",

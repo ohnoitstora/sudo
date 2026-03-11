@@ -4,10 +4,10 @@ Screen {
 }
 
 #game {
-    width: 80;
+    width: auto;
     height: auto;
     layout: vertical;
-    padding: 1 2;
+    padding: 1;
     background: #1c1730 35%;
     border: round #f4a261;
 }
@@ -20,22 +20,15 @@ Screen {
     height: 1;
 }
 
-#subtitle {
-    width: 100%;
-    content-align: center middle;
-    color: #f7cad0;
-    margin-bottom: 1;
-}
-
 #topbar {
-    width: 100%;
+    width: auto;
     height: auto;
     margin-bottom: 1;
 }
 
 #instructions {
-    width: 1fr;
-    min-height: 3;
+    width: 36;
+    min-height: 1;
     padding: 0 1;
     content-align: center middle;
     color: #f8f9fa;
@@ -45,7 +38,7 @@ Screen {
 
 #status {
     width: 28;
-    min-height: 3;
+    min-height: 1;
     margin-left: 1;
     padding: 0 1;
     content-align: center middle;
@@ -59,13 +52,13 @@ Screen {
     grid-size: 9 9;
     grid-columns: 4 4 4 4 4 4 4 4 4;
     grid-rows: 3 3 3 3 3 3 3 3 3;
-    width: 36;
-    height: 27;
+    width: auto;
+    height: auto;
     align-horizontal: center;
-    margin: 0 auto;
+    margin: 0;
     background: #231942;
     border: round #cdb4db;
-    padding: 1;
+    padding: 0;
 }
 
 .cell {
@@ -117,7 +110,7 @@ Screen {
 }
 
 #legend {
-    width: 100%;
+    width: auto;
     height: auto;
     margin-top: 1;
     align-horizontal: center;

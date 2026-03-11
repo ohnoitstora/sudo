@@ -1,4 +1,4 @@
-# Sudoku Textual Prototype
+# Sudoku
 
 A small, entry-level Sudoku user interface built with Python and Textual.
 
@@ -46,4 +46,4 @@ If you are using the existing virtual environment in this workspace, you can als
 
 ## Notes
 
-The interface is meant to be a raw prototype for layout and input handling. It does not try to enforce Sudoku rules beyond locking the original given numbers.
+The interface focuses on the board layout and direct input handling. It does not try to enforce Sudoku rules beyond locking the original given numbers.
