@@ -1,0 +1,147 @@
+Screen {
+    align: center middle;
+    background: #120f1f;
+}
+
+#game {
+    width: 80;
+    height: auto;
+    layout: vertical;
+    padding: 1 2;
+    background: #1c1730 35%;
+    border: round #f4a261;
+}
+
+#title {
+    width: 100%;
+    content-align: center middle;
+    color: #ffcf56;
+    text-style: bold;
+    height: 1;
+}
+
+#subtitle {
+    width: 100%;
+    content-align: center middle;
+    color: #f7cad0;
+    margin-bottom: 1;
+}
+
+#topbar {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1;
+}
+
+#instructions {
+    width: 1fr;
+    min-height: 3;
+    padding: 0 1;
+    content-align: center middle;
+    color: #f8f9fa;
+    background: #2d2543;
+    border: round #7bdff2;
+}
+
+#status {
+    width: 28;
+    min-height: 3;
+    margin-left: 1;
+    padding: 0 1;
+    content-align: center middle;
+    color: #f1faee;
+    background: #264653;
+    border: round #2a9d8f;
+}
+
+#board {
+    layout: grid;
+    grid-size: 9 9;
+    grid-columns: 4 4 4 4 4 4 4 4 4;
+    grid-rows: 3 3 3 3 3 3 3 3 3;
+    width: 36;
+    height: 27;
+    align-horizontal: center;
+    margin: 0 auto;
+    background: #231942;
+    border: round #cdb4db;
+    padding: 1;
+}
+
+.cell {
+    width: 4;
+    height: 3;
+    content-align: center middle;
+    border: solid #5c5f77;
+}
+
+.tone-sun {
+    tint: #f77f00 8%;
+}
+
+.tone-sea {
+    tint: #4cc9f0 8%;
+}
+
+.given {
+    background: #3d315b;
+    color: #fff1b8;
+    text-style: bold;
+}
+
+.editable {
+    background: #1f2a44;
+    color: #9bf6ff;
+}
+
+.cell:focus {
+    background: #ef476f;
+    color: #ffffff;
+    text-style: bold;
+}
+
+.block-top {
+    border-top: heavy #ffd166;
+}
+
+.block-left {
+    border-left: heavy #ffd166;
+}
+
+.block-bottom {
+    border-bottom: heavy #ffd166;
+}
+
+.block-right {
+    border-right: heavy #ffd166;
+}
+
+#legend {
+    width: 100%;
+    height: auto;
+    margin-top: 1;
+    align-horizontal: center;
+}
+
+.legend-chip {
+    width: auto;
+    padding: 0 1;
+    margin-right: 1;
+    border: round #cdb4db;
+}
+
+.legend-given {
+    color: #fff1b8;
+    background: #3d315b;
+}
+
+.legend-editable {
+    color: #9bf6ff;
+    background: #1f2a44;
+}
+
+.legend-note {
+    width: auto;
+    color: #f7cad0;
+    padding: 0 1;
+}
